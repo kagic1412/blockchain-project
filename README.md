@@ -12,7 +12,7 @@ This project explores the effectiveness of GraphSAGE neural networks versus Ligh
 
 ### Download
 
-1. Visit [Elliptic++](https://www.elliptic.co/) or the [Kaggle dataset](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set)
+1. Download from [Elliptic++ dataset repository](https://github.com/git-disl/EllipticPlusPlus/tree/main/Transactions%20Dataset)
 2. Download the dataset files
 3. Place them in `data/raw/` with these names:
    - `txs_classes.csv`
