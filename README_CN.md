@@ -13,8 +13,14 @@
 ### 下载方式
 
 1. 从 [Elliptic++ 数据集仓库](https://github.com/git-disl/EllipticPlusPlus/tree/main/Transactions%20Dataset) 下载数据集
-2. 下载数据集文件
-3. 将文件放入 `data/raw/` 目录，命名为：
+2. 在项目根目录下创建以下目录结构：
+   ```
+   data/
+   ├── raw/
+   ├── processed/
+   └── output/
+   ```
+3. 将下载的文件放入 `data/raw/` 目录，命名为：
    - `txs_classes.csv`
    - `txs_edgelist.csv`
    - `txs_features.csv`
