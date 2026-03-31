@@ -61,6 +61,8 @@ blockchain/
 ├── analysis/                      # Analysis outputs
 ├── docs/                         # Documentation
 ├── results/                       # Experiment results
+├── notebook/                      # Jupyter notebooks
+│   └── Elliptic_AML_Detection_Project_EN.ipynb  # Complete analysis notebook (view results directly)
 ├── README.md                     # This file
 └── .gitignore
 ```
@@ -86,7 +88,34 @@ pip install pyg-nightly torch-geometric
 pip install -r requirements.txt
 ```
 
-## Quick Start
+## Quick View Results (Recommended)
+
+No installation required! View complete analysis and results directly on GitHub or locally.
+
+### notebook/Elliptic_AML_Detection_Project_EN.ipynb
+
+This project includes a complete interactive Jupyter notebook covering:
+
+- **Full Analysis Pipeline**: Data Loading → Feature Extraction → Model Training → Results Comparison
+- **All Running Outputs**: Classification reports, feature importance, model comparison charts
+- **English Documentation**: Easy for international sharing
+
+**How to Use**:
+
+1. **View on GitHub**: Navigate to `notebook/` folder and click the `.ipynb` file - GitHub auto-renders all code and outputs
+2. **Run Locally**:
+   ```bash
+   jupyter notebook notebook/Elliptic_AML_Detection_Project_EN.ipynb
+   ```
+   If data files are missing, the notebook will display a download link
+
+> **Note**: After uploading to GitHub, others can view all results directly without running the code.
+
+---
+
+## Quick Start (Local Run)
+
+For experimenting with your own data or modifying the code, follow the steps below.
 
 ### 1. Data Preparation
 
