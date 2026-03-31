@@ -59,10 +59,12 @@ blockchain/
 │       └── summary.py             # Model comparison
 │
 ├── analysis/                      # Analysis outputs
+│   └── visualization_analysis.md  # Network visualization report
 ├── docs/                         # Documentation
 ├── results/                       # Experiment results
 ├── notebook/                      # Jupyter notebooks
 │   └── Elliptic_AML_Detection_Project_EN.ipynb  # Complete analysis notebook (view results directly)
+├── visualization_analysis.md      # Network visualization report (English)
 ├── README.md                     # This file
 └── .gitignore
 ```

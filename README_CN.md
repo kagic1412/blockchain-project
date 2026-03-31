@@ -58,9 +58,11 @@ blockchain/
 │       └── summary.py             # 模型对比
 │
 ├── analysis/                      # 分析结果输出
+│   └── visualization_analysis.md  # 网络可视化分析报告
 ├── results/                       # 实验结果
 ├── notebook/                      # Jupyter notebooks
 │   └── Elliptic_AML_Detection_Project_EN.ipynb  # 完整分析 Notebook（可直接查看运行结果）
+├── visualization_analysis.md      # 网络可视化分析报告（英文版）
 ├── README.md                     # 英文文档
 ├── README_CN.md                  # 本文件（中文文档）
 └── .gitignore
